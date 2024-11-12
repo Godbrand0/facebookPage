@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FaceBook Form</title>
+    <style>
+      body {
+        width: 500px;
+        margin: 0 auto;
+        background: gray;
+      }
+      form {
+        width: 400px;
+
+        background: ghostwhite;
+        padding: 10px 30px;
+        border-radius: 10px;
+      }
+      .head {
+        text-align: center;
+      }
+
+      .names {
+        margin: 10px 0px;
+      }
+      .text {
+        padding: 5px 5px;
+        border-radius: 5px;
+      }
+
+      .date {
+        margin: 10px 0px;
+      }
+      .month {
+        padding: 5px 5px;
+        font-size: 14px;
+        font-weight: bold;
+      }
+      .gender {
+        margin: 10px 0px;
+      }
+      label {
+        font-weight: bold;
+      }
+      button {
+        width: 100px;
+        height: 30px;
+        font-size: 15px;
+        font-weight: 600;
+        border-radius: 6px;
+        border: none;
+      }
+      a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <div class="head">
+        <h1>Create a new account</h1>
+        <h3 style="color: gray">it's quick and easy.</h3>
+      </div>
+
+      <hr />
+      <div class="names">
+        <input type="text" placeholder="First name" class="text" />
+        <input type="text" placeholder="Last name" class="text" />
+      </div>
+      <label>Date of Birth</label>
+      <div class="date">
+        <select name="month" class="month">
+          <option value="month">Month</option>
+          <option value="January">January</option>
+          <option value="February">February</option>
+          <option value="March">March</option>
+          <option value="April">April</option>
+          <option value="May">May</option>
+          <option value="June">June</option>
+          <option value="July">July</option>
+          <option value="August">August</option>
+          <option value="September">September</option>
+          <option value="October">October</option>
+          <option value="November">November</option>
+          <option value="December">December</option>
+        </select>
+        <select name="days" class="day">
+          <option value="days">Days</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+          <option value="31">31</option>
+        </select>
+        <select name="year" class="year">
+          <option value="Year">Year</option>
+          <option value="Year">2024</option>
+          <option value="Year">2023</option>
+          <option value="Year">2022</option>
+          <option value="Year">2021</option>
+          <option value="Year">2020</option>
+          <option value="Year">2019</option>
+          <option value="Year">2018</option>
+          <option value="Year">2017</option>
+          <option value="Year">2016</option>
+          <option value="Year">2015</option>
+          <option value="Year">2014</option>
+          <option value="Year">2013</option>
+          <option value="Year">2012</option>
+          <option value="Year">2011</option>
+          <option value="Year">2010</option>
+          <option value="Year">2009</option>
+          <option value="Year">2008</option>
+          <option value="Year">2007</option>
+          <option value="Year">2006</option>
+          <option value="Year">2005</option>
+          <option value="Year">2004</option>
+        </select>
+      </div>
+      <label for="">Gender</label>
+      <div class="gender">
+        <button>Female <input type="radio" name="" id="" /></button>
+        <button>Male <input type="radio" name="" id="" /></button>
+        <button>Custom <input type="radio" name="" id="" /></button>
+      </div>
+      <div>
+        <input type="email" name="" id="" placeholder="Email address" />
+        <input type="number" name="" id="" placeholder="Mobile number" />
+      </div>
+      <div>
+        <input type="password" name="" id="" />
+      </div>
+      <p>
+        People who use our service may have uploaded your contact information on
+        Facebook. <a href="">Learn More</a>
+      </p>
+      <p>
+        By clicking Sign Up, you agree to our <a href="">Terms</a>,
+        <a href="">Privacy Policy and Cookies Policy</a>. You may recieve SMS
+        notifications from us and can opt out at any <time datetime=" "></time>
+      </p>
+      <div style="text-align: center">
+        <button style="background: green; color: white; cursor: pointer">
+          Sign Up
+        </button>
+        <a href="" style="display: block; margin: 10px 0px"
+          >Already have an account?</a
+        >
+      </div>
+    </form>
+  </body>
+</html>
