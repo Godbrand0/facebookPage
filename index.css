@@ -27,7 +27,20 @@ form {
   display: block;
 }
 .inputs {
-  margin: 20px auto;
+  margin: 10px auto;
+}
+.text {
+  padding: 8px 10px;
+  outline: none;
+  margin: 6px 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 15px;
+  width: 46%;
+}
+input {
+  border: none;
 }
 .head {
   text-align: center;
@@ -42,7 +55,7 @@ form {
 }
 
 .date {
-  margin: 8px 0;
+  margin: 1px 0;
 }
 .date select {
   width: 30%;
@@ -53,12 +66,13 @@ form {
   font-size: 14px;
   font-weight: bold;
   border-radius: 5px;
+  margin-bottom: 15px;
 }
 .date select:last-child {
   margin-right: 0;
 }
 .gender {
-  margin: 10px 0px;
+  margin: 1px 0px;
 }
 .option {
   display: inline-block;
@@ -69,9 +83,11 @@ form {
   width: 25%;
 }
 .option input[type="radio"] {
-  margin-right: 5px;
+  margin-right: 20px;
+  text-align: center;
+  width: 10px;
 }
-input[type="text"],
+input[type="email"],
 input[type="password"],
 select {
   width: 100%;
@@ -80,11 +96,43 @@ select {
   border: 1px solid #ddd;
   border-radius: 4px;
   box-sizing: border-box;
+  font-size: 14px;
+}
+.input {
+  margin-top: 15px;
 }
 label {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: bold;
 }
 a {
   text-decoration: none;
+}
+
+.information,
+.privacy {
+  font-size: 14px;
+  color: #555;
+}
+.information a,
+.privacy a {
+  font-weight: bold;
+}
+.button {
+  text-align: center;
+}
+.button button {
+  width: 200px;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 4px;
+  font-size: 16px;
+  border: none;
+  padding: 10px;
+}
+.button a {
+  display: block;
+  font-size: 15px;
+  margin: 10px auto;
+  font-weight: bold;
 }
